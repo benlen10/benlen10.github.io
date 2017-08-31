@@ -84,3 +84,18 @@ body {
 .download-resume-button:hover{
     background:#54C4BB;
 }
+
+.contact-section {
+    padding-top: 10%;
+}
+
+.contact-icons-table {
+    margin: 0px auto;
+}
+
+.github-link {
+    width: 80px;
+    height: 80px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
