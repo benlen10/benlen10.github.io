@@ -28,7 +28,27 @@ body {
     display: block;
     padding: 10px 25px;
     position: relative;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+    text-align: right;
+}
+
+.resume-link {
+    color: #2aa198;
+    float: right;
+    display: block;
+    padding: 10px 25px;
+    position: relative;
+    font-size: 1.3rem;
+    text-align: right;
+}
+
+.contact-link {
+    color: #2aa198;
+    float: right;
+    display: block;
+    padding: 10px 25px;
+    position: relative;
+    font-size: 1.3rem;
     text-align: right;
 }
 
