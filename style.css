@@ -89,6 +89,13 @@ body {
     padding-top: 10%;
 }
 
+.contact-me-text {
+    text-align: center;
+    color: #54C4BB;
+    font-size: 1.2rem;
+    font-family: "Century Gothic", "Arial";
+}
+
 .contact-icons-table {
     margin: 0px auto;
 }
