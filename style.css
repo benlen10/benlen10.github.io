@@ -127,3 +127,15 @@ body {
     margin-left: 10px;
     margin-right: 10px;
 }
+
+.footer-content {
+    text-align: center;
+}
+
+.footer-text {
+    position: relative;
+    font-size: 0.8rem;
+    color: #2aa198;
+    padding-bottom: 3px;
+    padding-bottom: 15px;
+}
