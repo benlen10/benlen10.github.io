@@ -66,3 +66,21 @@ body {
     font-size: 1.2rem;
     font-family: "Century Gothic", "Arial";
 }
+
+.my-resume{
+    padding-top: 10px;
+    text-align: center;
+}
+
+.download-resume-button{
+    color: #54C4BB;
+    padding:15px 25px;
+    border:3px solid #54C4BB;
+    border-radius:10px;
+    transition:.5s ease all;
+    font-size: 0.8rem;
+}
+
+.download-resume-button:hover{
+    background:#54C4BB;
+}
