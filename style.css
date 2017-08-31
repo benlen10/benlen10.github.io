@@ -9,51 +9,24 @@ body {
     font-size: 2rem;
 }
 
-.header-section {
-    width: 100%;
-    height: auto;
+.nav {
+    height: 35px;
+    background-color: #002b36;
+    padding-bottom: 15px;
 }
 
-.header-content ul li {
-    float: right;
-}
-
-.header-content ul li a:hover {
-    color: #fdf6e3;
-}
-
-.about-link {
+.header-link {
     color: #2aa198;
     float: right;
     display: block;
     padding: 10px 25px;
     position: relative;
-    font-size: 1.3rem;
-    text-align: right;
-}
-
-.resume-link {
-    color: #2aa198;
-    float: right;
-    display: block;
-    padding: 10px 25px;
-    position: relative;
-    font-size: 1.3rem;
-    text-align: right;
-}
-
-.contact-link {
-    color: #2aa198;
-    float: right;
-    display: block;
-    padding: 10px 25px;
-    position: relative;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     text-align: right;
 }
 
 .about-section {
-    padding-top: 14%;
+    padding-top: 12%;
 }
 
 .about-content {
@@ -87,8 +60,8 @@ body {
     font-family: "Century Gothic", "Arial";
 }
 
-.my-resume{
-    padding-top: 10px;
+.resume-section{
+    padding-top: 5px;
     text-align: center;
 }
 
@@ -99,14 +72,41 @@ body {
     border-radius:10px;
     transition:.5s ease all;
     font-size: 0.8rem;
+    padding-right: 20px;
 }
 
 .download-resume-button:hover{
     background:#54C4BB;
 }
 
+.projects-content {
+    padding-top: 2%;
+    position: center;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+
+.project-documentation-button{
+    color: #54C4BB;
+    padding:15px 25px;
+    border:3px solid #54C4BB;
+    border-radius:10px;
+    transition:.5s ease all;
+    font-size: 0.8rem;
+    margin-left: 25px;
+}
+
+.project-documentation-button:hover{
+    background:#54C4BB;
+}
+
 .contact-section {
-    padding-top: 10%;
+    padding-top: 2%;
+    padding-bottom: 1%;
 }
 
 .contact-me-text {
@@ -141,28 +141,9 @@ body {
     margin-right: 10px;
 }
 
-.facebook-link {
-    width: 80px;
-    height: 80px;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
 .google-drive-link {
     width: 80px;
     height: 80px;
     margin-left: 10px;
     margin-right: 10px;
-}
-
-.footer-content {
-    text-align: center;
-}
-
-.footer-text {
-    position: relative;
-    font-size: 0.8rem;
-    color: #2aa198;
-    padding-bottom: 3px;
-    padding-bottom: 15px;
 }
