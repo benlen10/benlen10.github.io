@@ -49,3 +49,20 @@ body {
     width: 100%;
     font-family: "Century Gothic", "Arial";
 }
+
+.profile-pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 20%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.about-me-text {
+    text-align: center;
+    color: #54C4BB;
+    font-size: 1.2rem;
+    font-family: "Century Gothic", "Arial";
+}
