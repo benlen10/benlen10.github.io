@@ -8,6 +8,22 @@ body {
     font-size: 2rem;
 }
 
+.nav {
+    height: 40px;
+    background-color: #002b36;
+    padding-bottom: 1%;
+}
+
+.header-link {
+    color: #2aa198;
+    float: right;
+    display: block;
+    padding: 10px 25px;
+    position: relative;
+    font-size: 1.1rem;
+    text-align: right;
+}
+
 .about-section {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -58,6 +74,7 @@ body {
 
 .contact-icons-table {
     margin: 0px auto;
+    margin-bottom: 10px;
 }
 
 .contact-link-icon {

@@ -9,7 +9,7 @@ body {
 }
 
 .nav {
-    height: 2%;
+    height: 40px;
     background-color: #002b36;
     padding-bottom: 1%;
 }
@@ -107,6 +107,7 @@ body {
 
 .contact-icons-table {
     margin: 0px auto;
+    margin-bottom: 10px;
 }
 
 .contact-link-icon {
