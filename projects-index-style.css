@@ -13,29 +13,18 @@ body {
     padding-bottom: 20px;
 }
 
-.title-text {
+.page-title-text {
     text-align: center;
     color: #54C4BB;
     font-size: 3.0rem;
     font-family: "Century Gothic", "Arial";
 }
 
-.description-text {
+.page-description-text {
     text-align: center;
     color: #54C4BB;
     font-size: 1.2rem;
     font-family: "Century Gothic", "Arial";
-}
-
-.title-text {
-    text-align: center;
-    color: #54C4BB;
-    font-size: 3.0rem;
-    font-family: "Century Gothic", "Arial";
-}
-
-.gallery-section {
-
 }
 
 .gallery-table {
@@ -53,4 +42,27 @@ body {
     text-align: center;
     color: #54C4BB;
     font-size: 1.2rem;
+}
+
+.contact-section {
+    padding-top: 2%;
+    padding-bottom: 1%;
+}
+
+.contact-me-text {
+    text-align: center;
+    color: #54C4BB;
+    font-size: 1.2rem;
+    font-family: "Century Gothic", "Arial";
+}
+
+.contact-icons-table {
+    margin: 0px auto;
+}
+
+.contact-link-icon {
+    width: 80px;
+    height: 80px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
