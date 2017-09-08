@@ -56,10 +56,19 @@ body {
     margin-bottom: 10px;
 }
 
-.project-description-text {
+.gallery-image-with-text{
+    width: 200px;
+    height: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 25px;
+
+}
+
+.gallery-section-text {
     text-align: center;
     color: #54C4BB;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 
 .unicade-commercial-model-section{
@@ -80,6 +89,20 @@ body {
 
 .unicade-original-section{
     padding-top: 5%;
+}
+
+.gallery-section{
+    padding-top: 4%;
+}
+
+.gallery-section-topmost{
+    padding-top: 1%;
+}
+
+.gallery-image-subtext{
+    text-align: center;
+    color: #4289F0;
+    font-size: 0.9rem;
 }
 
 .contact-section {
