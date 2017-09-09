@@ -27,13 +27,13 @@ body {
 
 .about-section {
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 
 .page-title-text {
     text-align: center;
-    color: #54C4BB;
-    font-size: 3.0rem;
+    color: #fdf6e3;
+    font-size: 3.5rem;
     font-family: "Century Gothic", "Arial";
 }
 
@@ -42,6 +42,15 @@ body {
     color: #54C4BB;
     font-size: 1.2rem;
     font-family: "Century Gothic", "Arial";
+}
+
+.logo-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 30%;
+    height: auto;
 }
 
 .gallery-table {
