@@ -44,6 +44,13 @@ body {
     font-family: "Century Gothic", "Arial";
 }
 
+.page-description-subtext {
+    text-align: center;
+    color: #54C4BB;
+    font-size: 1.0rem;
+    font-family: "Century Gothic", "Arial";
+}
+
 .logo-image {
     display: block;
     margin-left: auto;
