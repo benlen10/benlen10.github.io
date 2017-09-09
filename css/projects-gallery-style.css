@@ -138,3 +138,11 @@ body {
     margin-left: 10px;
     margin-right: 10px;
 }
+
+.footer-text {
+    text-align: center;
+    color: #54C4BB;
+    font-size: 0.8rem;
+    font-family: "Century Gothic", "Arial";
+    padding-top: 10px;
+}
