@@ -72,26 +72,6 @@ body {
     font-size: 1.5rem;
 }
 
-.unicade-commercial-model-section{
-    padding-top: 1%;
-}
-
-.unicade-slim-section{
-    padding-top: 5%;
-}
-
-.unicade-psk-section{
-    padding-top: 5%;
-}
-
-.unicade-crt-section{
-    padding-top: 5%;
-}
-
-.unicade-original-section{
-    padding-top: 5%;
-}
-
 .gallery-section{
     padding-top: 4%;
 }
@@ -106,8 +86,28 @@ body {
     font-size: 0.9rem;
 }
 
+.button-link{
+    color: #54C4BB;
+    padding:15px 25px;
+    border:3px solid #54C4BB;
+    border-radius:10px;
+    transition:.5s ease all;
+    font-size: 0.8rem;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.button-link:hover{
+    background:#54C4BB;
+}
+
+.button-link-container{
+    text-align: center;
+    padding-top: 2%;
+}
+
 .contact-section {
-    padding-top: 5%;
+    padding-top: 4%;
     padding-bottom: 1%;
 }
 

@@ -59,7 +59,7 @@ body {
     text-align: center;
 }
 
-.download-resume-button{
+.button-link{
     color: #54C4BB;
     padding:15px 25px;
     border:3px solid #54C4BB;
@@ -67,10 +67,16 @@ body {
     transition:.5s ease all;
     font-size: 0.8rem;
     padding-right: 20px;
+    padding-left: 20px;
 }
 
-.download-resume-button:hover{
+.button-link:hover{
     background:#54C4BB;
+}
+
+.button-link-container{
+    padding-right: 20px;
+    padding-left: 20px;
 }
 
 .projects-content {
@@ -78,20 +84,6 @@ body {
     position: center;
     margin-left: 35%;
     margin-right: 35%;
-}
-
-.project-documentation-button{
-    color: #54C4BB;
-    padding:15px 25px;
-    border:3px solid #54C4BB;
-    border-radius:10px;
-    transition:.5s ease all;
-    font-size: 0.8rem;
-    margin-left: 25px;
-}
-
-.project-documentation-button:hover{
-    background:#54C4BB;
 }
 
 .contact-section {
