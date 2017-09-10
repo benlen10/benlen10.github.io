@@ -63,6 +63,13 @@ body {
     margin-top: 5px;
 }
 
+.page-description-subtext-small {
+    text-align: center;
+    color: #54C4BB;
+    font-size: 1.0rem;
+    font-family: "Century Gothic", "Arial";
+}
+
 .button-link{
     color: #54C4BB;
     padding:15px 25px;
