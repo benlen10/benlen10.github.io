@@ -73,13 +73,12 @@ body {
     margin-bottom: 10px;
 }
 
-.gallery-image-with-text{
+.gallery-image-with-text {
     width: 200px;
     height: 200px;
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 25px;
-
 }
 
 .gallery-section-text {
@@ -88,36 +87,36 @@ body {
     font-size: 1.5rem;
 }
 
-.gallery-section{
+.gallery-section {
     padding-top: 4%;
 }
 
-.gallery-section-topmost{
+.gallery-section-topmost {
     padding-top: 1%;
 }
 
-.gallery-image-subtext{
+.gallery-image-subtext {
     text-align: center;
     color: #4289F0;
     font-size: 0.9rem;
 }
 
-.button-link{
+.button-link {
     color: #54C4BB;
-    padding:15px 25px;
-    border:3px solid #54C4BB;
-    border-radius:10px;
-    transition:.5s ease all;
+    padding: 15px 25px;
+    border: 3px solid #54C4BB;
+    border-radius: 10px;
+    transition: .5s ease all;
     font-size: 0.8rem;
     padding-right: 20px;
     padding-left: 20px;
 }
 
-.button-link:hover{
-    background:#54C4BB;
+.button-link:hover {
+    background: #54C4BB;
 }
 
-.button-link-container{
+.button-link-container {
     text-align: center;
     padding-top: 2%;
 }
