@@ -1,0 +1,19 @@
+html {
+    font-size: 100%;
+    font-family: "Century Gothic", "Arial";
+}
+
+body {
+    background-color: #0C242B;
+    min-width: 600px;
+    min-height: 300px;
+}
+
+.redirect-text {
+    padding-top: 2%;
+    text-align: center;
+    color: #54C4BB;
+    font-size: 2.0rem;
+    font-weight: lighter;
+    font-family: "Century Gothic", "Arial";
+}
