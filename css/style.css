@@ -60,8 +60,8 @@ body {
 }
 
 .resume-button-link {
-    color: #54C4BB;
-    padding: 15px 36px;
+    color: #54c4bb;
+    padding: 15px 30px;
     border: 3px solid #54C4BB;
     border-radius: 10px;
     transition: .5s ease all;
@@ -74,7 +74,7 @@ body {
 
 .documentation-button-link {
     color: #54C4BB;
-    padding: 15px 25px;
+    padding: 15px 20px;
     border: 3px solid #54C4BB;
     border-radius: 10px;
     transition: .5s ease all;
@@ -85,16 +85,29 @@ body {
     background: #54C4BB;
 }
 
+.website-source-code-button-link {
+    color: #54C4BB;
+    padding: 15px 20px;
+    border: 3px solid #54C4BB;
+    border-radius: 10px;
+    transition: .5s ease all;
+    font-size: 0.8rem;
+}
+
+.website-source-code-button-link:hover {
+    background: #54C4BB;
+}
+
 .button-link-container {
-    padding-right: 20px;
-    padding-left: 20px;
+    padding-right: 5px;
+    padding-left: 5px;
 }
 
 .projects-content {
     padding-top: 20px;
     position: center;
-    margin-left: 35%;
-    margin-right: 35%;
+    margin-left: 32%;
+    margin-right: 32%;
 }
 
 .contact-section {
