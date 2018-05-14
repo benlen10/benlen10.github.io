@@ -9,20 +9,26 @@ body {
     min-width: 600px;
 }
 
-.nav {
+.navbar {
     height: 40px;
-    background-color: #002b36;
     padding-bottom: 1%;
+    background-color: #002b36;
 }
 
 .header-link {
     color: #2aa198;
-    float: right;
     display: block;
-    padding: 10px 25px;
+    padding: 5px 10px;
     position: relative;
-    font-size: 1.1rem;
+    font-size: 1.0rem;
     text-align: right;
+    text-decoration: none;
+    transition: .5s ease all;
+}
+
+.header-link:hover {
+    text-decoration: none;
+    background: #54C4BB;
 }
 
 .about-section {
@@ -70,6 +76,7 @@ body {
 
 .resume-button-link:hover {
     background: #54C4BB;
+    text-decoration: none;
 }
 
 .documentation-button-link {
@@ -83,6 +90,7 @@ body {
 
 .documentation-button-link:hover {
     background: #54C4BB;
+    text-decoration: none;
 }
 
 .website-source-code-button-link {
@@ -96,15 +104,13 @@ body {
 
 .website-source-code-button-link:hover {
     background: #54C4BB;
+    text-decoration: none;
 }
 
 .button-link-container {
     padding-right: 5px;
     padding-left: 5px;
 }
-
-
-
 
 
 .projects-section {
