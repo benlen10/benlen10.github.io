@@ -74,7 +74,7 @@ body {
 
 .documentation-button-link {
     color: #54C4BB;
-    padding: 15px 20px;
+    padding: 15px 18px;
     border: 3px solid #54C4BB;
     border-radius: 10px;
     transition: .5s ease all;
@@ -103,11 +103,24 @@ body {
     padding-left: 5px;
 }
 
-.projects-content {
+
+
+
+
+.projects-section {
     padding-top: 20px;
-    position: center;
-    margin-left: 32%;
-    margin-right: 32%;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    width: 380px;
+    height: 380px;
+    
+}
+
+.carousel-inner img {
+    margin: auto;
+    width: 100%;
+    height: 100%;
 }
 
 .contact-section {
@@ -115,6 +128,7 @@ body {
 }
 
 .contact-me-text {
+    padding-top: 20px;
     text-align: center;
     color: #54C4BB;
     font-size: 1.2rem;
