@@ -31,7 +31,8 @@ body {
 }
 
 .about-section {
-    padding-top: 3%;
+    padding-top: 3%;-top: 3%;
+    padding-bottom: 30px;
 }
 
 .my-name-text {
@@ -39,6 +40,7 @@ body {
     font-size: 3.5rem;
     text-align: center;
     font-family: "Century Gothic", "Arial";
+    padding-top: 20px;
 }
 
 .profile-pic {
@@ -133,7 +135,7 @@ body {
 }
 
 .contact-me-text {
-    padding-top: 20px;
+    padding-top: 60px;
     text-align: center;
     color: #54C4BB;
     font-size: 1.2rem;
