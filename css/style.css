@@ -31,7 +31,6 @@ body {
 }
 
 .about-section {
-    padding-top: 3%;-top: 3%;
     padding-bottom: 30px;
 }
 
@@ -41,6 +40,7 @@ body {
     text-align: center;
     font-family: "Century Gothic", "Arial";
     padding-top: 20px;
+    padding-bottom: 10px;
 }
 
 .profile-pic {
@@ -51,18 +51,17 @@ body {
     width: 20%;
     height: auto;
     border-radius: 50%;
-    padding-bottom: 1%;
+    padding-bottom: 35px;
 }
 
 .about-me-text {
     text-align: center;
     color: #54C4BB;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-family: "Century Gothic", "Arial";
 }
 
 .resume-section {
-    padding-top: 1%;
     text-align: center;
 }
 
@@ -132,6 +131,7 @@ body {
 
 .contact-section {
     padding-top: 2%;
+    padding-bottom: 20px;
 }
 
 .contact-me-text {
