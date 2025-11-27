@@ -1,157 +1,235 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-BCQ9LNCMY3"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-BCQ9LNCMY3");
+    </script>
 
-<head>
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-BCQ9LNCMY3"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag() { dataLayer.push(arguments); }
-		gtag('js', new Date());
-		gtag('config', 'G-BCQ9LNCMY3');
-	</script>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="An open-source personal website to showcase projects and experience"
+    />
+    <meta
+      name="keywords"
+      content="Benjamin T. Lenington, Benjamin Lenington, Ben Lenington, Digital Portfolio, Personal Website, UniCade, Project CUBE, Ben Leninton Resume"
+    />
+    <meta name="author" content="Benjamin Lenington" />
+    <link href="images/icons/icon.png" rel="icon" />
+    <title>Benjamin Lenington - Personal Website</title>
 
-	<meta charset="UTF-8">
-	<meta name="description" content="An open-source personal website to showcase projects and experience">
-	<meta name="keywords"
-		content="Benjamin T. Lenington, Benjamin Lenington, Ben Lenington, Digital Portfolio, Personal Website, UniCade, Project CUBE, Ben Leninton Resume">
-	<meta name="author" content="Benjamin Lenington">
-	<link href="images/icons/icon.png" rel="icon">
-	<title>Benjamin Lenington - Personal Website</title>
+    <link href="css/bootstrap4.min.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <script src="js/analytics.js"></script>
+    <!-- Privacy-friendly analytics by Plausible -->
+    <script
+      async
+      src="https://plausible.io/js/pa-0CAUp1on1WEQbTHqYMr0P.js"
+    ></script>
+    <script>
+      (window.plausible =
+        window.plausible ||
+        function () {
+          (plausible.q = plausible.q || []).push(arguments);
+        }),
+        (plausible.init =
+          plausible.init ||
+          function (i) {
+            plausible.o = i || {};
+          });
+      plausible.init();
+    </script>
+  </head>
 
-	<link href="css/bootstrap4.min.css" rel="stylesheet">
-	<link href="css/style.css" rel="stylesheet">
-	<script src="js/analytics.js"></script>
-</head>
-
-<body>
-	<section class="header-section">
-		<nav class="navbar navbar-expand">
-			<ul class="navbar-nav ml-auto">
-
-				<li>
-					<a class="header-link" href="projects/index.html">Projects</a>
-				</li>
-				<li>
-					<a class="header-link" type="application/pdf"
-						href="/static/benjamin_lenington_resume.pdf">Resume</a>
-				</li>
-				<li>
-					<a class="header-link" href="#contact-section-id">Contact Me</a>
-				</li>
-			</ul>
-		</nav>
-		<h1 class="my-name-text">Benjamin Lenington</h1>
-	</section>
-	<section class="about-section" id="about-section-id">
-		<img class="profile-pic" src="images/benjamin-lenington.jpg">
-		<div class="about-content">
-			<h3 class="about-me-text">Software Engineer</h3>
-			<h3 class="about-me-text">Minneapolis, MN</h3>
-			<h3 class="about-me-text">UW Madison - Computer Science</h3>
-		</div>
-	</section>
-	<section class="resume-section" id="resume-section-id">
-		<table class="contact-icons-table">
-			<tr>
-				<td>
-					<div class="button-link-container">
-						<a class="resume-button-link" type="application/pdf"
-							href="/static/benjamin_lenington_resume.pdf">
-							Download Resume</a>
-					</div>
-
-				</td>
-				<td>
-					<div class="button-link-container">
-						<a class="documentation-button-link" href="projects/index.html">Project Documentation</a>
-					</div>
-				</td>
-			</tr>
-		</table>
-	</section>
-	<section class="projects-section" id="projects-section-id">
-		<div class="projects-content">
-			<div id="projects-carousel" class="carousel slide" data-ride="carousel">
-				<ul class="carousel-indicators">
-					<li data-target="#projects-carousel" data-slide-to="0" class="active"></li>
-					<li data-target="#projects-carousel" data-slide-to="1"></li>
-					<li data-target="#projects-carousel" data-slide-to="2"></li>
-					<li data-target="#projects-carousel" data-slide-to="3"></li>
-					<li data-target="#projects-carousel" data-slide-to="4"></li>
-					<li data-target="#projects-carousel" data-slide-to="5"></li>
-					<li data-target="#projects-carousel" data-slide-to="6"></li>
-					<li data-target="#projects-carousel" data-slide-to="7"></li>
-					<li data-target="#projects-carousel" data-slide-to="8"></li>
-				</ul>
-				<div class="carousel-inner">
-					<div href="projects/index.html" class="carousel-item active">
-						<img src="images/homepage/cube.jpg" alt="Benjamin Lenington - Project CUBE">
-					</div>
-					<div href="projects/index.html" class="carousel-item">
-						<img src="images/homepage/benjamin-lenington-unicade.jpg"
-							alt="Benjamin Lenington - UniCade Commercial Model">
-					</div>
-					<div href="projects/index.html" class="carousel-item">
-						<img src="images/homepage/benjamin-lenington-amsterdam-profile.jpg"
-							alt="Benjamin Lenington - Amsterdam Headshot Photo">
-					</div>
-					<div href="projects/index.html" class="carousel-item">
-						<img src="images/homepage/cube-casing.jpg" alt="Benjamin Lenington - Project CUBE Chassis">
-					</div>
-					<div href="projects/index.html" class="carousel-item">
-						<img src="images/homepage/unicade-construction.jpg"
-							alt="Benjamin Lenington - UniCade Construction Process">
-					</div>
-					<div href="projects/index.html" class="carousel-item">
-						<img src="images/homepage/museum-exhibit.jpg" alt="Benjamin Lenington - Museum Exhibits">
-					</div>
-					<div href="projects/index.html" class="carousel-item">
-						<img src="images/homepage/unicade-two-models.jpg"
-							alt="Benjamin Lenington - UniCade Prototype Models">
-					</div>
-					<div href="projects/index.html" class="carousel-item">
-						<img src="images/homepage/unicade-joysticks-closeup.jpg"
-							alt="Benjamin Lenington - UniCade Joysticks">
-					</div>
-					<div href="projects/index.html" class="carousel-item">
-						<img src="images/homepage/cube-ice-cold.jpg"
-							alt="Benjamin Lenington - Project CUBE Internal View">
-					</div>
-				</div>
-				<a class="carousel-control-prev" href="#projects-carousel" data-slide="prev">
-					<span class="carousel-control-prev-icon"></span>
-				</a>
-				<a class="carousel-control-next" href="#projects-carousel" data-slide="next">
-					<span class="carousel-control-next-icon"></span>
-				</a>
-			</div>
-		</div>
-	</section>
-	<section class="contact-section" id="contact-section-id">
-		<p class="contact-me-text">Contact Me</p>
-		<table class="contact-icons-table">
-			<tr>
-				<td>
-					<a href="pages/github-redirect.html">
-						<img class="contact-link-icon" id="homepage-github-redirect" src="images/icons/github-icon.png">
-					</a>
-				</td>
-				<td>
-					<a href="pages/linkedin-redirect.html">
-						<img class="contact-link-icon" id="homepage-linkedin-redirect"
-							src="images/icons/linkedin-icon.png">
-					</a>
-				</td>
-				<td>
-					<a href="mailto:ben2lening@gmail.com" target="_top">
-						<img class="contact-link-icon" id="homepage-email-redirect" src="images/icons/email-icon.png">
-					</a>
-				</td>
-			</tr>
-		</table>
-	</section>
-	<script src="js/jquery3.min.js"></script>
-	<script src="js/bootstrap4.min.js"></script>
-</body>
-
+  <body>
+    <section class="header-section">
+      <nav class="navbar navbar-expand">
+        <ul class="navbar-nav ml-auto">
+          <li>
+            <a class="header-link" href="projects/index.html">Projects</a>
+          </li>
+          <li>
+            <a
+              class="header-link"
+              type="application/pdf"
+              href="/static/benjamin_lenington_resume.pdf"
+              >Resume</a
+            >
+          </li>
+          <li>
+            <a class="header-link" href="#contact-section-id">Contact Me</a>
+          </li>
+        </ul>
+      </nav>
+      <h1 class="my-name-text">Benjamin Lenington</h1>
+    </section>
+    <section class="about-section" id="about-section-id">
+      <img class="profile-pic" src="images/benjamin-lenington.jpg" />
+      <div class="about-content">
+        <h3 class="about-me-text">Software Engineer</h3>
+        <h3 class="about-me-text">Minneapolis, MN</h3>
+        <h3 class="about-me-text">UW Madison - Computer Science</h3>
+      </div>
+    </section>
+    <section class="resume-section" id="resume-section-id">
+      <table class="contact-icons-table">
+        <tr>
+          <td>
+            <div class="button-link-container">
+              <a
+                class="resume-button-link"
+                type="application/pdf"
+                href="/static/benjamin_lenington_resume.pdf"
+              >
+                Download Resume</a
+              >
+            </div>
+          </td>
+          <td>
+            <div class="button-link-container">
+              <a class="documentation-button-link" href="projects/index.html"
+                >Project Documentation</a
+              >
+            </div>
+          </td>
+        </tr>
+      </table>
+    </section>
+    <section class="projects-section" id="projects-section-id">
+      <div class="projects-content">
+        <div id="projects-carousel" class="carousel slide" data-ride="carousel">
+          <ul class="carousel-indicators">
+            <li
+              data-target="#projects-carousel"
+              data-slide-to="0"
+              class="active"
+            ></li>
+            <li data-target="#projects-carousel" data-slide-to="1"></li>
+            <li data-target="#projects-carousel" data-slide-to="2"></li>
+            <li data-target="#projects-carousel" data-slide-to="3"></li>
+            <li data-target="#projects-carousel" data-slide-to="4"></li>
+            <li data-target="#projects-carousel" data-slide-to="5"></li>
+            <li data-target="#projects-carousel" data-slide-to="6"></li>
+            <li data-target="#projects-carousel" data-slide-to="7"></li>
+            <li data-target="#projects-carousel" data-slide-to="8"></li>
+          </ul>
+          <div class="carousel-inner">
+            <div href="projects/index.html" class="carousel-item active">
+              <img
+                src="images/homepage/cube.jpg"
+                alt="Benjamin Lenington - Project CUBE"
+              />
+            </div>
+            <div href="projects/index.html" class="carousel-item">
+              <img
+                src="images/homepage/benjamin-lenington-unicade.jpg"
+                alt="Benjamin Lenington - UniCade Commercial Model"
+              />
+            </div>
+            <div href="projects/index.html" class="carousel-item">
+              <img
+                src="images/homepage/benjamin-lenington-amsterdam-profile.jpg"
+                alt="Benjamin Lenington - Amsterdam Headshot Photo"
+              />
+            </div>
+            <div href="projects/index.html" class="carousel-item">
+              <img
+                src="images/homepage/cube-casing.jpg"
+                alt="Benjamin Lenington - Project CUBE Chassis"
+              />
+            </div>
+            <div href="projects/index.html" class="carousel-item">
+              <img
+                src="images/homepage/unicade-construction.jpg"
+                alt="Benjamin Lenington - UniCade Construction Process"
+              />
+            </div>
+            <div href="projects/index.html" class="carousel-item">
+              <img
+                src="images/homepage/museum-exhibit.jpg"
+                alt="Benjamin Lenington - Museum Exhibits"
+              />
+            </div>
+            <div href="projects/index.html" class="carousel-item">
+              <img
+                src="images/homepage/unicade-two-models.jpg"
+                alt="Benjamin Lenington - UniCade Prototype Models"
+              />
+            </div>
+            <div href="projects/index.html" class="carousel-item">
+              <img
+                src="images/homepage/unicade-joysticks-closeup.jpg"
+                alt="Benjamin Lenington - UniCade Joysticks"
+              />
+            </div>
+            <div href="projects/index.html" class="carousel-item">
+              <img
+                src="images/homepage/cube-ice-cold.jpg"
+                alt="Benjamin Lenington - Project CUBE Internal View"
+              />
+            </div>
+          </div>
+          <a
+            class="carousel-control-prev"
+            href="#projects-carousel"
+            data-slide="prev"
+          >
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#projects-carousel"
+            data-slide="next"
+          >
+            <span class="carousel-control-next-icon"></span>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section class="contact-section" id="contact-section-id">
+      <p class="contact-me-text">Contact Me</p>
+      <table class="contact-icons-table">
+        <tr>
+          <td>
+            <a href="pages/github-redirect.html">
+              <img
+                class="contact-link-icon"
+                id="homepage-github-redirect"
+                src="images/icons/github-icon.png"
+              />
+            </a>
+          </td>
+          <td>
+            <a href="pages/linkedin-redirect.html">
+              <img
+                class="contact-link-icon"
+                id="homepage-linkedin-redirect"
+                src="images/icons/linkedin-icon.png"
+              />
+            </a>
+          </td>
+          <td>
+            <a href="mailto:ben2lening@gmail.com" target="_top">
+              <img
+                class="contact-link-icon"
+                id="homepage-email-redirect"
+                src="images/icons/email-icon.png"
+              />
+            </a>
+          </td>
+        </tr>
+      </table>
+    </section>
+    <script src="js/jquery3.min.js"></script>
+    <script src="js/bootstrap4.min.js"></script>
+  </body>
 </html>
